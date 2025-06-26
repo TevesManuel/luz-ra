@@ -103,7 +103,7 @@ function animate() {
     scene.visible = camera.visible;
     
     if (model) {
-        model.rotation.y += 0.01;
+        model.rotation.y += 0.005;
     }
     
     renderer.render(scene, camera);
